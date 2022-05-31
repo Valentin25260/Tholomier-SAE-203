@@ -57,11 +57,55 @@
 
     <img src="../../public/carré.png" class="w-full mt-8 h-auto" />
 
-    <div class="flex flex-row flex-wrap mt-8 w-full">
+    <div class="flex flex-row flex-wrap mt-8 ml-1 w-full">
       <img src="../../public/image1.webp" class="w-1/2 h-auto" />
       <img src="../../public/image2.webp" class="w-1/2 h-auto" />
       <img src="../../public/image3.webp" class="w-full h-auto" />
     </div>
+
+    <img src="../../public/carré.png" class="w-full mt-8 h-auto" />
+
+    <p class="font-bebas text-2xl mx-14 text-center mt-">
+      <span class="text-blue-500">Rassemblez-vous et passez</span>
+      <span class="text-[#FF9C7D]"> 3 jours </span>
+      <span class="text-blue-500"> de </span>
+      <span class="text-[#FF9C7D]">pure plasir.</span>
+    </p>
+
+    <footer
+      class="
+        w-full
+        bg-[#FF9C7D]
+        grid grid-cols-2
+        justify-items-center
+        items-center
+        mt-8
+      "
+    >
+      <img src="../../public/image 5.webp" class="w-[80%] h-auto" />
+
+      <div
+        class="
+          w-full
+          flex flex-col flex-wrap
+          justify-center
+          items-center
+          my-[15px]
+        "
+      >
+        <div class="w-full flex flex-row flex-wrap justify-evenly">
+          <img src="../../public/facebook 1.webp" class="w-[32px] h-auto" />
+          <img src="../../public/instagram 1.webp" class="w-[32px] h-auto" />
+          <img src="../../public/twitter 1.webp" class="w-[32px] h-auto" />
+        </div>
+        <div class="h-px w-4/5 my-[10px] bg-gray-300"></div>
+        <div>
+          <p class="text-sm leading-7 font-medium">Contact</p>
+
+          <p class="text-sm leading-7 font-medium">Mention légale</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
