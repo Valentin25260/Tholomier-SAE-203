@@ -1,104 +1,60 @@
 <template>
-    <div class="container "> 
-        
-        <div class="row"> 
-            <div class="card bg-dark">
+  <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
-                <div class="card-header">
-                    <strong>Liste des vidéos Kids disponibles</strong>
-                </div>
+  <img src="../../public/festival.webp" class="w-full mt-4 h-auto" />
 
-                <div class="card-body table-responsive">
-                    <table class="table text-light">
-                        <thead>
-                            <tr>
-                                <td>Vidéos</td>
-                                <td>Infos</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="text-center">
-                                    <h5 class="media-heading"><b>Rebelle</b></h5>
-                                    <img class="media-object imageSmall" src="https://jsonvideo.jmfino.fr/imagesvideos/rebelle.jpg" alt="Rebelle">
-                                </td>
-                                <td>
+  <div class="flex flex-row overflow-x-auto ...">
+    <img src="../../public/image 10.webp" class="mt-6 h-[133px] ml-3 w-auto" />
+    <img src="../../public/image 12.webp" class="mt-6 mx-3 h-[133px] w-auto" />
+    <img src="../../public/image 13.webp" class="mt-6 h-[133px] w-auto" />
+  </div>
 
-                                    <div>
-                                        <span class="libelle">Nationalités : </span>
-                                        <span>Etats-Unis</span>
-                                    </div>
-                                    <div>
-                                        <span class="libelle">Réalisateurs : </span>
-                                        <span>Mark Andrews</span>
-                                    </div>
-                                    <div>
-                                        <span class="libelle">Acteurs : </span>
-                                        <span>Bérénice Béjot</span>
-                                    </div>
-                                    <div>
-                                        <span class="libelle">Catégories : </span>
-                                        <span>Aventure Comédie Famille</span>
-                                    </div>
-                                    <div>
-                                        <div class="libelle">Synopsis : </div>
-                                        <div>
-                                                Depuis la nuit des temps, au cœur des terres sauvages et mystérieuses des Highlands d’Ecosse, récits de batailles épiques...
-                                        </div>
-                                    </div>
+  <p
+    class="
+      w-full
+      px-4
+      h-[84.91px]
+      text-sm
+      font-semibold
+      text-center
+      mt-4
+      text-black
+    "
+  >
+    Espi Festi est un festival qui se déroula à Espiguette plus précisément sur
+    la plage au Grau-du-Roi. Nous allons accueillir jusqu’à 50 000 personnes
+    maxium par jour pour un budjet de 6 millions d’euros.
+  </p>
 
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">
-                                    <h5 class="media-heading"><b>Toy Story 3</b></h5>
-                                    <img class="imageSmall" src="https://jsonvideo.jmfino.fr/imagesvideos/toystory3.jpg" alt="Toy Story 3">
-                                </td>
-                                <td>
+  <img src="../../public/carré.png" class="w-full mt-10 h-auto" />
 
-                                    <div>
-                                        <span class="libelle">Nationalités : </span><span>Etats-Unis</span>
-                                    </div>
-                                    <div>
-                                        <span class="libelle">Réalisateurs : </span><span>Lee Unkrich</span>
-                                    </div>
-                                    <div>
-                                        <span class="libelle">Acteurs : </span><span>Tom Hanks</span>
-                                    </div>
-                                    <div>
-                                        <span class="libelle">Catégories : </span>
-                                        <span class="texte">Aventure Comédie</span>
-                                    </div>
-                                    <div>
-                                        <div class="libelle">Synopsis : </div>
-                                        <div>
-                                            Les créateurs des très populaires films Toy Story ouvrent à nouveau le coffre à jouets et invitent les spectateurs à ret...
-                                        </div>
-                                    </div>
+  <p
+    class="
+      w-full
+      px-4
+      h-[84.91px]
+      text-sm
+      font-semibold
+      text-center
+      mt-4
+      text-black
+    "
+  >
+    Nous sommes le premier festival de France à l’organiser sur une plage avec
+    la mer à coter. N’hésitez pas à venir en mailot de bain si vous souhaitez
+    vous rafraichir.
+  </p>
 
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>   
-                </div>  
-            </div>
-        </div>
-    </div>
+  <div class="flex flex-row overflow-x-auto ...">
+    <img src="../../public/1.webp" class="mt-6 h-[133px] ml-3 w-auto" />
+    <img src="../../public/2.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+    <img src="../../public/3.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+    <img src="../../public/4.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+    <img src="../../public/5.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+    <img src="../../public/6.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+    <img src="../../public/7.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+    <img src="../../public/8.webp" class="mt-6 ml-3 h-[133px] w-auto" />
+  </div>
 </template>
-
-<script>
-
-export default {
-  name:'KidsView',
-  data() {
-    return {
-
-    }
-  },
-}
-</script>
-
-<style scoped>
-</style>
 
 
