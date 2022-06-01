@@ -40,6 +40,7 @@ i {
 .texte {
     font-weight: normal;
     font-size: .8rem;
+
 }
 
 .resume {
@@ -84,11 +85,15 @@ nav .navbar-nav a {
 }
 
 nav .navbar-brand a {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(4, 0, 0) !important;
     text-decoration: none;
 }
 
 html,
 #app {
     background-color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
 }

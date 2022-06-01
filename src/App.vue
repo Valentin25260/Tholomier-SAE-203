@@ -29,35 +29,40 @@ export default {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <div class="nav-link">
-              <RouterLink to="/films">Programmation</RouterLink>
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/Programmation" class="text-black"
+                >Programmation</RouterLink
+              >
             </div>
           </li>
           <li class="nav-item">
-            <div class="nav-link">
-              <RouterLink to="/series">Artistes</RouterLink>
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/Artiste" class="text-black">Artistes</RouterLink>
             </div>
           </li>
           <li class="nav-item">
-            <div class="nav-link">
-              <RouterLink to="/kids">Festival</RouterLink>
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/Festival" class="text-black"
+                >Festival</RouterLink
+              >
             </div>
           </li>
           <li class="nav-item">
-            <div class="nav-link">
-              <RouterLink to="/mangas">Contact</RouterLink>
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/Contact" class="text-black">Contact</RouterLink>
             </div>
           </li>
+
           <li class="nav-item">
-            <div class="nav-link">
-              <RouterLink to="/mangas"></RouterLink>
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/Concert" class="text-black">Concert</RouterLink>
             </div>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">MonCompte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Mes vidéos</a>
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/bio" class="text-black">bio</RouterLink>
+            </div>
           </li>
         </ul>
 
@@ -76,19 +81,23 @@ export default {
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
               <div class="dropdown-item">
-                <RouterLink to="/videos">Vidéos</RouterLink>
+                <RouterLink to="/videos" class="text-black">Vidéos</RouterLink>
               </div>
 
               <div class="dropdown-item">
-                <RouterLink to="/participants">Participants</RouterLink>
+                <RouterLink to="/participants" class="text-black"
+                  >Participants</RouterLink
+                >
               </div>
 
               <div class="dropdown-item">
-                <RouterLink to="/categories">Catégories</RouterLink>
+                <RouterLink to="/categories" class="text-black"
+                  >Catégories</RouterLink
+                >
               </div>
 
               <div class="dropdown-item">
-                <RouterLink to="/pays">Pays</RouterLink>
+                <RouterLink to="/pays" class="text-black">Pays</RouterLink>
               </div>
             </div>
           </li>
@@ -101,8 +110,6 @@ export default {
 </template>
 
 <style>
-/* Import Styles application */
-@import "@/assets/style.css";
 </style>
 
 
