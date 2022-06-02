@@ -9,12 +9,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase
 
 // Votre configuration de Firebase
 const firebaseConfig = {
-   apiKey: "AIzaSyBjXoPbbOwpuxaGaq9XyGIg898mak5Ch-A",
-   authDomain: "mmi-1-firebase-vuejs-3-df151.firebaseapp.com",
-   projectId: "mmi-1-firebase-vuejs-3-df151",
-   storageBucket: "mmi-1-firebase-vuejs-3-df151.appspot.com",
-   messagingSenderId: "926613728383",
-   appId: "1:926613728383:web:b636ab724523bc2d12a34a"
+   apiKey: "AIzaSyDjrZ-h3pzs1a_F27prbb9k8l6PefK7LtI",
+   authDomain: "sae-203-e8944.firebaseapp.com",
+   projectId: "sae-203-e8944",
+   storageBucket: "sae-203-e8944.appspot.com",
+   messagingSenderId: "214622293484",
+   appId: "1:214622293484:web:5c9e18b095561f9c6484c9",
+   measurementId: "G-4T191CXQ04"
 };
 
 // Initialize Firebase

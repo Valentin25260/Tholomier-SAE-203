@@ -64,44 +64,15 @@ export default {
               <RouterLink to="/bio" class="text-black">bio</RouterLink>
             </div>
           </li>
-        </ul>
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Administration
-            </a>
-            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-              <div class="dropdown-item">
-                <RouterLink to="/videos" class="text-black">Vidéos</RouterLink>
-              </div>
-
-              <div class="dropdown-item">
-                <RouterLink to="/participants" class="text-black"
-                  >Participants</RouterLink
-                >
-              </div>
-
-              <div class="dropdown-item">
-                <RouterLink to="/categories" class="text-black"
-                  >Catégories</RouterLink
-                >
-              </div>
-
-              <div class="dropdown-item">
-                <RouterLink to="/pays" class="text-black">Pays</RouterLink>
-              </div>
+          <li class="nav-item">
+            <div class="nav-link font-bebas ml-4 text-[20px]">
+              <RouterLink to="/connexion" class="text-black">Administration</RouterLink>
             </div>
           </li>
         </ul>
+
+       
       </div>
     </nav>
 
