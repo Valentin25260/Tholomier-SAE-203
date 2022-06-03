@@ -69,6 +69,9 @@
     ></RouterLink>
   </div>
 
+
+  
+
   <p
     class="
       px-4
@@ -113,6 +116,7 @@
     aucun répit vous aurez toujours un artiste qui vous fera vibrer.
   </p>
 </div>
+
  <footer
     class="
       w-full
