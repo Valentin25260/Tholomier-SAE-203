@@ -1,4 +1,5 @@
 <template>
+<div class="dark:bg-black">
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
   <img src="src/assets/img/festival.webp" class="w-full mt-4 h-auto" />
@@ -19,6 +20,8 @@
       mt-4
       text-black
       md:mx-96 md:text-lg
+      dark:text-white
+
     "
   >
     Espi Festi est un festival qui se déroula à Espiguette plus précisément sur
@@ -38,6 +41,7 @@
       mt-4
       text-black
       md:mx-96 md:text-lg
+      dark:text-white
     "
   >
     Nous sommes le premier festival de France à l’organiser sur une plage avec
@@ -55,7 +59,7 @@
     <img src="src/assets/img/7.webp" class="mt-6 ml-3 h-auto w-auto" />
     <img src="src/assets/img/8.webp" class="mt-6 ml-3 h-auto w-auto" />
   </div>
-
+</div>
   <footer
     class="
       w-full

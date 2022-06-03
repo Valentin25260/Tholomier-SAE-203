@@ -1,9 +1,11 @@
 <template>
+
+<div class="dark:bg-black">
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
   <img src="image/mention.png" class="w-full h-auto mt-4" />
 
-  <p class="text-xs sm:text-base mt-8 sm:px-16 font-medium mx-4">
+  <p class="text-xs sm:text-base mt-8 sm:px-16 font-medium mx-4 dark:text-white">
     Merci de lire avec attention les différentes modalités d’utilisation du
     présent site avant d’y parcourir ses pages. En vous connectant sur ce site,
     vous acceptez, sans réserves, les présentes modalités.<br /><br />
@@ -132,7 +134,7 @@
     de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996
     relative à la protection juridique des bases de données.
   </p>
-
+</div>
   <footer
     class="
       w-full

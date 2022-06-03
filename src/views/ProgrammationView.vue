@@ -1,4 +1,5 @@
 <template>
+<div class="dark:bg-black">
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
   <img src="src/assets/img/progra.webp" class="w-full h-auto mt-4" />
@@ -78,6 +79,7 @@
       mt-12
       text-black
       md:mx-96 md:text-lg
+      dark:text-white
     "
   >
     Pour ce qui est du choix des heures de passage des artistes pas de panique.
@@ -103,13 +105,14 @@
       mt-10
       text-black
       md:mx-96 md:text-lg
+      dark:text-white
     "
   >
     Nous avons voulu dépassez nos limites et vous surprendre avec 3 scènes. Vous
     aurez le choix d’aller écoutez vos artistes préféré, ainsi vous n’aurez
     aucun répit vous aurez toujours un artiste qui vous fera vibrer.
   </p>
-
+</div>
  <footer
     class="
       w-full
@@ -147,6 +150,7 @@
         >
       </div>
     </div>
+    
   </footer>
 </template>  
 

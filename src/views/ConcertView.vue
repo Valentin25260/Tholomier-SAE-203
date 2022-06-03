@@ -1,4 +1,7 @@
 <template>
+
+<div class="dark:bg-black">
+
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
   <img src="src/assets/img/concert.png" class="w-full h-auto mt-4" />
@@ -152,7 +155,7 @@
       <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
-
+</div>
   <footer
     class="
       w-full

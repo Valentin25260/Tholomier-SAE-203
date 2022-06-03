@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative dark:bg-black">
     <img src="src/assets/img/accueil.png" class="w-full h-auto" />
 
     <svg
@@ -68,7 +68,7 @@
         sm:text-[40px]
       "
     >
-      <span class="text-blue-500">Retrouvez nous le</span>
+      <span class="text-blue-500 ">Retrouvez nous le</span>
       <span class="text-[#FF9C7D]"> 1,2 et 3 juillet</span>
       <span class="text-blue-500"> au festival Espi festi pour notre </span>
       <span class="text-[#FF9C7D]">première édition.</span>

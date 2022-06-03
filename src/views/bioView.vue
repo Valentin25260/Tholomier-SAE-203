@@ -1,4 +1,7 @@
 <template>
+
+  <div class="dark:bg-black">
+
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
   <img src="../assets/img/bio.png" class="w-full h-auto mt-4" />
@@ -36,11 +39,12 @@
       text-sm
       font-semibold
       text-center text-black
+      dark:text-white
     "
   >
     {{ artiste.bio }}
   </p>
-
+</div>
   <footer
     class="
       w-full

@@ -1,4 +1,7 @@
 <template>
+
+  <div class="dark:bg-black">
+
   <img src="src/assets/img/artiste.webp" class="w-full h-auto" />
 
   <div class="w-full flex flex-row justify-center justify-items-center mt-4">
@@ -49,7 +52,8 @@
       </RouterLink>
     </tr>
 
-    
+        </div>
+
   </div>
   <footer
     class="
@@ -88,6 +92,7 @@
         >
       </div>
     </div>
+    
   </footer>
 </template>
 
