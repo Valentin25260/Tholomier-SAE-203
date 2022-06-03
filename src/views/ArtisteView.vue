@@ -2,7 +2,7 @@
 
   <div class="dark:bg-black">
 
-  <img src="src/assets/img/artiste.webp" class="w-full h-auto" />
+  <img src="src/assets/img/artiste.png" class="w-full h-auto" />
 
   <div class="w-full flex flex-row justify-center justify-items-center mt-4">
     <div class="h-[25px] bg-[#ff9c7d] flex border-black border-solid border-2">
@@ -11,7 +11,7 @@
   </div>
 
   <div class="grid grid-cols-2 sm:grid-cols-4 ml-2">
-    <tr v-for="artiste in listeArtisteSynchro" :key="artiste.id">
+    <div v-for="artiste in listeArtisteSynchro" :key="artiste.id" >
     <RouterLink class="btn btn-light border-0 mt-3" :to="{ name:'bioView', params: { id: artiste.id }}" >
                                 
                               
@@ -50,7 +50,7 @@
         </div>
       </div>
       </RouterLink>
-    </tr>
+      </div>
 
         </div>
 

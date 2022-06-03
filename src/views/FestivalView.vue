@@ -2,12 +2,12 @@
 <div class="dark:bg-black">
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
-  <img src="src/assets/img/festival.webp" class="w-full mt-4 h-auto" />
+  <img src="src/assets/img/festival.png" class="w-full mt-4 h-auto" />
 
   <div class="flex flex-row overflow-x-auto ...">
-    <img src="src/assets/img/image 10.webp" class="mt-10 ml-3 w-1/3 h-auto" />
-    <img src="src/assets/img/image 12.webp" class="mt-10 mx-3 w-1/3 h-auto" />
-    <img src="src/assets/img/image 13.webp" class="mt-10 mr-3 w-1/3 h-auto" />
+    <img src="src/assets/img/image10.webp" class="mt-10 ml-3 w-1/3 h-auto" />
+    <img src="src/assets/img/image12.webp" class="mt-10 mx-3 w-1/3 h-auto" />
+    <img src="src/assets/img/image13.webp" class="mt-10 mr-3 w-1/3 h-auto" />
   </div>
 
   <p

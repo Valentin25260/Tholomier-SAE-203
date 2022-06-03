@@ -2,7 +2,7 @@
 <div class="dark:bg-black">
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
-  <img src="src/assets/img/progra.webp" class="w-full h-auto mt-4" />
+  <img src="src/assets/img/progra.png" class="w-full h-auto mt-4" />
 
   <div
     class="bg-blue-500 mt-10 md:mx-[200px] pt-1"
@@ -90,12 +90,12 @@
     réflexion pour vous proposer la meilleure expérience possible.
   </p>
 
-  <img src="src/assets/img/scene.webp" class="mt-8 w-full h-auto" />
+  <img src="src/assets/img/scene.png" class="mt-8 w-full h-auto" />
 
   <div class="flex flex-row overflow-x-auto ...">
-    <img src="src/assets/img/image 10.webp" class="mt-12 ml-3 w-1/3 h-auto" />
-    <img src="src/assets/img/image 12.webp" class="mt-12 mx-3 w-1/3 h-auto" />
-    <img src="src/assets/img/image 13.webp" class="mt-12 mr-3 w-1/3 h-auto" />
+    <img src="src/assets/img/image10.webp" class="mt-12 ml-3 w-1/3 h-auto" />
+    <img src="src/assets/img/image12.webp" class="mt-12 mx-3 w-1/3 h-auto" />
+    <img src="src/assets/img/image13.webp" class="mt-12 mr-3 w-1/3 h-auto" />
   </div>
 
   <p

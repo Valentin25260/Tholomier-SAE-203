@@ -112,7 +112,7 @@
       </div>
 
       <img
-        src="src/assets/img/image 10.webp"
+        src="../assets/img/image10.webp"
         class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8"
       />
     </div>

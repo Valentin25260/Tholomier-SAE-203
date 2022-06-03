@@ -2,7 +2,7 @@
 <div class="dark:bg-black">
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
-  <img src="src/assets/img/contact.webp" class="w-full mt-4 h-auto" />
+  <img src="src/assets/img/contact.png" class="w-full mt-4 h-auto" />
 
   <div class="mx-4">
     <p

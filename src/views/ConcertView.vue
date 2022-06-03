@@ -22,13 +22,13 @@
       </div>
 
       <img
-        src="src/assets/img/image 10.webp"
+        src="src/assets/img/image10.webp"
         class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8"
       />
     </div>
 
     <div class="flex flex-row flex-wrap">
-      <img src="src/assets/img/image 12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
       <div>
         <p class="text-2xl font-bebas sm:text-4xl text-blue-500 ml-3 mt-4">
           Scène : soleil-lune
@@ -54,7 +54,7 @@
           20h : SCH
         </p>
       </div>
-      <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
   <img src="src/assets/img/carré.png" class="w-full mt-8 h-auto" />
@@ -73,11 +73,11 @@
           23h30 : DAFT PUNK
         </p>
       </div>
-      <img src="src/assets/img/image 10.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image10.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
 
     <div class="flex flex-row flex-wrap">
-      <img src="src/assets/img/image 12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
       <div>
         <p class="text-2xl font-bebas sm:text-4xl text-blue-500 ml-3 mt-4">
           Scène : soleil-lune
@@ -103,7 +103,7 @@
           20h : JOK’AIR
         </p>
       </div>
-      <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
 
@@ -123,11 +123,11 @@
           23h30 : DAVID <br />GUETTA
         </p>
       </div>
-      <img src="src/assets/img/image 10.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image10.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
 
     <div class="flex flex-row flex-wrap">
-      <img src="src/assets/img/image 12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
       <div>
         <p class="text-2xl font-bebas sm:text-4xl text-blue-500 ml-3 mt-4">
           Scène : soleil-lune
@@ -152,7 +152,7 @@
           20h : LETO
         </p>
       </div>
-      <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
+      <img src="src/assets/img/image13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
 </div>
