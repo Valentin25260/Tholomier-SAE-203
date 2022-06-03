@@ -1,7 +1,7 @@
 <template>
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
-  <img src="image/concert.png" class="w-full h-auto mt-4" />
+  <img src="src/assets/img/concert.png" class="w-full h-auto mt-4" />
 
   <div class="flex flex-col items-center">
     <p class="text-3xl max-w-[40%] sm:text-6xl font-bebas text-black ml-3 mt-4">
@@ -19,13 +19,13 @@
       </div>
 
       <img
-        src="image/image 10.webp"
+        src="src/assets/img/image 10.webp"
         class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8"
       />
     </div>
 
     <div class="flex flex-row flex-wrap">
-      <img src="image/image 12.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
       <div>
         <p class="text-2xl font-bebas sm:text-4xl text-blue-500 ml-3 mt-4">
           Scène : soleil-lune
@@ -51,10 +51,10 @@
           20h : SCH
         </p>
       </div>
-      <img src="image/image 13.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
-  <img src="image/carré.png" class="w-full mt-8 h-auto" />
+  <img src="src/assets/img/carré.png" class="w-full mt-8 h-auto" />
 
   <div class="flex flex-col items-center">
     <p class="text-3xl font-bebas text-black ml-3 sm:text-6xl mt-6">Samedi</p>
@@ -70,11 +70,11 @@
           23h30 : DAFT PUNK
         </p>
       </div>
-      <img src="image/image 10.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 10.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
 
     <div class="flex flex-row flex-wrap">
-      <img src="image/image 12.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
       <div>
         <p class="text-2xl font-bebas sm:text-4xl text-blue-500 ml-3 mt-4">
           Scène : soleil-lune
@@ -100,11 +100,11 @@
           20h : JOK’AIR
         </p>
       </div>
-      <img src="image/image 13.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
 
-  <img src="image/carré.png" class="w-full mt-8 h-auto" />
+  <img src="src/assets/img/carré.png" class="w-full mt-8 h-auto" />
 
   <div class="flex flex-col items-center">
     <p class="text-3xl font-bebas text-black ml-3 sm:text-6xl mt-6">DIMANCHE</p>
@@ -120,11 +120,11 @@
           23h30 : DAVID <br />GUETTA
         </p>
       </div>
-      <img src="image/image 10.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 10.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
 
     <div class="flex flex-row flex-wrap">
-      <img src="image/image 12.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 12.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
       <div>
         <p class="text-2xl font-bebas sm:text-4xl text-blue-500 ml-3 mt-4">
           Scène : soleil-lune
@@ -149,7 +149,7 @@
           20h : LETO
         </p>
       </div>
-      <img src="image/image 13.webp" class="w-[191px] h-[107px] ml-2 mt-10" />
+      <img src="src/assets/img/image 13.webp" class="w-[191px] h-auto sm:w-[250px] ml-2 mt-8" />
     </div>
   </div>
 
@@ -163,7 +163,7 @@
       mt-8
     "
   >
-    <img src="image/image 5.webp" class="w-[80%] sm:w-[30%] my-[10px] h-auto" />
+    <img src="../assets/img/image5.webp" class="w-[80%] sm:w-[30%] my-[10px] h-auto" />
 
     <div
       class="
@@ -175,9 +175,9 @@
       "
     >
       <div class="w-full flex flex-row flex-wrap justify-evenly">
-        <img src="image/facebook 1.webp" class="w-[32px] h-auto" />
-        <img src="image/instagram 1.webp" class="w-[32px] h-auto" />
-        <img src="image/twitter 1.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/facebook.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/instagram.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/twitter.webp" class="w-[32px] h-auto" />
       </div>
       <div class="h-px w-4/5 my-[10px] bg-gray-300"></div>
       <div class="w-full flex flex-rom justify-evenly">

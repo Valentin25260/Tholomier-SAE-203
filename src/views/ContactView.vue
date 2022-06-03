@@ -1,7 +1,7 @@
 <template>
   <div class="h-px w-4/5 my-[10px] bg-gray-300 mx-10"></div>
 
-  <img src="image/contact.webp" class="w-full mt-4 h-auto" />
+  <img src="src/assets/img/contact.webp" class="w-full mt-4 h-auto" />
 
   <div class="mx-4">
     <p
@@ -166,7 +166,6 @@
       src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16608.414760366217!2d4.123362128839924!3d43.50466895944071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1653995683484!5m2!1sfr!2sfr"
       height="300"
       style="border: 0"
-      allowfullscreen=""
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
@@ -182,7 +181,7 @@
       mt-8
     "
   >
-    <img src="image/image 5.webp" class="w-[80%] sm:w-[30%] my-[10px] h-auto" />
+    <img src="../assets/img/image5.webp" class="w-[80%] sm:w-[30%] my-[10px] h-auto" />
 
     <div
       class="
@@ -194,9 +193,9 @@
       "
     >
       <div class="w-full flex flex-row flex-wrap justify-evenly">
-        <img src="image/facebook 1.webp" class="w-[32px] h-auto" />
-        <img src="image/instagram 1.webp" class="w-[32px] h-auto" />
-        <img src="image/twitter 1.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/facebook.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/instagram.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/twitter.webp" class="w-[32px] h-auto" />
       </div>
       <div class="h-px w-4/5 my-[10px] bg-gray-300"></div>
       <div class="w-full flex flex-rom justify-evenly">

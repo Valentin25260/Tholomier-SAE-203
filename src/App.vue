@@ -59,18 +59,40 @@ export default {
             </div>
           </li>
 
-          <li class="nav-item">
-            <div class="nav-link font-bebas ml-4 text-[20px]">
-              <RouterLink to="/bio" class="text-black">bio</RouterLink>
-            </div>
-          </li>
+         
 
-          <li class="nav-item">
-            <div class="nav-link font-bebas ml-4 text-[20px]">
-              <RouterLink to="/connexion" class="text-black">Administration</RouterLink>
-            </div>
-          </li>
+        
         </ul>
+
+         <ul class="navbar-nav ml-auto mt-4 mr-[3%]">
+                <li class="nav-item dropdown">
+                
+                <a class="nav-link dropdown-toggle" 
+                    href="#" 
+                    id="navbarDropdown" 
+                    role="button" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false"
+                    ><div class="text-black font-bebas text-[20px]">Admnistration</div>
+                    
+                    </a>
+              
+                  <div class="dropdown-menu bg-blue-500 mt-[-20px]" aria-labelledby="navbarDropdown" >
+
+                    <div class="dropdown-item" >
+                      <RouterLink to="/ListeArtistes"> <div class="text-black font-bebas text-[20px]">Artiste</div></RouterLink>
+                    </div>
+
+                    <div class="dropdown-item" >
+                      <RouterLink to="/ListeConcerts"><div class="text-black font-bebas text-[20px]">Concert</div></RouterLink>
+                    </div>
+
+                   
+
+                </div>
+                </li>
+            </ul>
 
        
       </div>
@@ -78,6 +100,7 @@ export default {
 
     <RouterView />
   </div>
+  
 </template>
 
 <style>

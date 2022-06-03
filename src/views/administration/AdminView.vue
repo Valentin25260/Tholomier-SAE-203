@@ -3,10 +3,10 @@
         <form enctype="multipart/form-data" 
             @submit.prevent="createParticipant"
         >
-            <div class="card bg-dark">
+            <div class="card bg-blue-500">
 
                 <div class="card-header">
-                    <h5 style="color:white;">Création participant</h5>
+                    <h5 style="color:white;">Ajouter un artiste</h5>
                 </div>    
 
                 <div class="card-body">   
@@ -23,18 +23,18 @@
                                     <span class="input-group-text" >Nom</span>
                                 </div>
                                 <input 
-                                    class="form-control" placeholder="Nom de la personne"
+                                    class="form-control" placeholder="Nom de l'artiste"
                                     v-model="participant.nom"
                                     required />                    
                             </div>
                             <br/>
                             <div class="input-group">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" >Prénom</span>
+                                    <span class="input-group-text" >Bio</span>
                                 </div>
                                 <input 
                                     v-model="participant.prenom"
-                                    class="form-control" placeholder="Prénom de la personne" key=
+                                    class="form-control" placeholder="Biographie" key=
                                     required />                    
                             </div>
                             <br/>
@@ -46,44 +46,22 @@
                                     <input type="file" class="custom-file-input" ref="file" id="file" 
                                     @change="previewImage"
                                     >
-                                    <label class="custom-file-label" for="file">Sélectionner l'image</label>
+                                    <label class="custom-file-label" for="file">Ajouter une image</label>
                                 </div>
                             </div>
-                            <br/>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" >Date naissance</span>
-                                </div>
-                                <input 
-                                    type="date"
-                                    class="form-control"
-                                    v-model="participant.naissance" 
-                                    format="dd/mm/yyyy" 
-                                    required />                    
-                            </div>
-                            <br/>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" >Pays</span>
-                                </div>
-                                <select class="custom-select" v-model="participant.nationalite">
-                                    <option selected disabled>Sélectionner un Pays</option>
-                                    <option v-for="pays in listePays" :key="pays.nom">
-                                        {{pays.nom}}
-                                    </option>
-                                </select>
-                            </div>
-                            <br/>
+                      
+                          
+                            
                         </div>
                     </div>               
                 </div>
 
                 <div class="card-footer">   
-                    <button type="submit" class="float-left btn btn-dark">
+                    <button type="submit" class="float-left btn btn-dark bg-[#FF9C7D]">
                         Créer
                     </button>
-                    <button class="float-right btn btn-dark" >
-                        <router-link to="/participants" >Cancel</router-link>
+                    <button class="float-right btn btn-dark bg-[#FF9C7D]" >
+                        <router-link to="/admin" >Cancel</router-link>
                     </button>
                 </div>
 

@@ -143,7 +143,7 @@
       mt-8
     "
   >
-    <img src="image/image 5.webp" class="w-[80%] sm:w-[30%] my-[10px] h-auto" />
+    <img src="../assets/img/image5.webp" class="w-[80%] sm:w-[30%] my-[10px] h-auto" />
 
     <div
       class="
@@ -155,9 +155,9 @@
       "
     >
       <div class="w-full flex flex-row flex-wrap justify-evenly">
-        <img src="image/facebook 1.webp" class="w-[32px] h-auto" />
-        <img src="image/instagram 1.webp" class="w-[32px] h-auto" />
-        <img src="image/twitter 1.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/facebook.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/instagram.webp" class="w-[32px] h-auto" />
+        <img src="../assets/img/twitter.webp" class="w-[32px] h-auto" />
       </div>
       <div class="h-px w-4/5 my-[10px] bg-gray-300"></div>
       <div class="w-full flex flex-rom justify-evenly">
