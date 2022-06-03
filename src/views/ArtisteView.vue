@@ -2,7 +2,7 @@
 
   <div class="dark:bg-black">
 
-  <img src="src/assets/img/artiste.png" class="w-full h-auto" />
+  <img src="../assets/img/artiste.png" class="w-full h-auto" />
 
   <div class="w-full flex flex-row justify-center justify-items-center mt-4">
     <div class="h-[25px] bg-[#ff9c7d] flex border-black border-solid border-2">

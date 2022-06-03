@@ -1,6 +1,6 @@
 <template>
   <div class="relative dark:bg-black">
-    <img src="src/assets/img/accueil.png" class="w-full h-auto" />
+    <img src="../assets/img/accueil.png" class="w-full h-auto" />
 
     <svg
       class="absolute top-0 left-0 w-[58.2%] h-auto"
@@ -74,22 +74,22 @@
       <span class="text-[#FF9C7D]">première édition.</span>
     </p>
 
-    <img src="src/assets/img/carré.png" class="w-full mt-12 h-auto" />
+    <img src="../assets/img/carré.png" class="w-full mt-12 h-auto" />
 
     <div class="flex flex-row flex-wrap mt-8 ml-1 w-full md:px-[300px]">
       <RouterLink to="Programmation" class="w-1/2 h-auto mt-[50px]">
-        <img src="src/assets/img/image1.webp" class="w-full h-auto" />
+        <img src="../assets/img/image1.webp" class="w-full h-auto" />
       </RouterLink>
 
       <RouterLink to="Artiste" class="w-1/2 h-auto">
-        <img src="src/assets/img/image2.webp" class="w-full h-auto" />
+        <img src="../assets/img/image2.webp" class="w-full h-auto" />
       </RouterLink>
       <RouterLink to="Festival" class="w-full h-auto">
-        <img src="src/assets/img/image3.webp" class="w-full h-auto" />
+        <img src="../assets/img/image3.webp" class="w-full h-auto" />
       </RouterLink>
     </div>
 
-    <img src="src/assets/img/carré.png" class="w-full mt-8 h-auto" />
+    <img src="../assets/img/carré.png" class="w-full mt-8 h-auto" />
 
     <p
       class="

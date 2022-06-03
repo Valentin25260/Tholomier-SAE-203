@@ -12,7 +12,7 @@
         style="box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25)"
       >
         <p class="font-bebas ml-2 text-[30px] text-white">Ajouter un artiste</p>
-        <img src="src/assets/img/fleche.png" class="w-auto h-auto mx-3" /></div
+        <img src="../../assets/img/fleche.png" class="w-auto h-auto mx-3" /></div
     ></RouterLink>
   </div>
 
